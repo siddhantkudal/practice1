@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<html>
+<body style="background-color: rgb(19, 56, 61);">
+<font color="blue">
+<h3 >Calcuator using Javascript</h3>
+</font>
+<br/>
+<style>
+#calc{width:600px;height:400px;}
+#btn{width:100%;height:40px;font-size:20px;}
+
+</style>
+<form Name="calc">
+<table id="calc"  style="background-color:darkgoldenrod " >
+<tr>
+<td colspan=5><input id="btn" name="display" onkeypress="return event.charCode >= 48 && event.charCode <= 57" type="text" style="background-color: darkkhaki;"></td>
+<td style="display:none"><input name="M" type="number"></td>
+</tr>
+<tr>
+
+<td><input id="btn" type=button value="0" ></td>
+<td><input id="btn" type=button value="1" ></td>
+<td><input id="btn" type=button value="2" ></td>
+<td><input id="btn" type=button value="+" ></td>
+</tr>
+<tr>
+
+<td><input id="btn" type=button value="3" ></td>
+<td><input id="btn" type=button value="4" ></td>
+<td><input id="btn" type=button value="5" ></td>
+<td><input id="btn" type=button value="-"></td>
+</tr>
+<tr>
+
+<td><input id="btn" type=button value="6" ></td>
+<td><input id="btn" type=button value="7" ></td>
+<td><input id="btn" type=button value="8" ></td>
+<td><input id="btn" type=button value="x"></td>
+</tr>
+<tr>
+
+
+<td><input id="btn" type=button value="/" ></td>
+</tr>
+<tr>
+<td><input id="btn" type=button value="C" ></td>
+<td><input id="btn" type=button value="." ></td>
+<td><input id="btn" type=button value="x2" ></td>
+<td><input id="btn" type=button value="√" ></td>
+
+</tr>
+</table>
+</form>
+</body>
+</html>
