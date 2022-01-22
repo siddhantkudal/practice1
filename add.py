@@ -1,3 +1,5 @@
 a=100
 b=900
-print(a+b)
+c=88
+d=980
+print(a+b+c+d)
